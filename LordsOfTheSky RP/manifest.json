@@ -1,0 +1,16 @@
+{
+    "format_version": 1,
+    "header": {
+        "name": "Lords Of The Sky RP",
+        "description": "by Halo333X and elcorderoxd",
+        "uuid": "703efa9d-58e5-4cd0-9396-cad79dfac549",
+        "version": [0, 0, 1]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "3733d93c-e2c3-4b62-a794-a6519ec057f2",
+            "version": [0, 0, 1]
+        }
+    ]
+}

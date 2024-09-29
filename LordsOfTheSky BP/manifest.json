@@ -1,0 +1,43 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Lords Of The Sky BP",
+        "description": "by Halo333X and elcorderoxd",
+        "uuid": "750345cf-c374-4ee6-a21e-4f9ddb7a6555",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "uuid": "04f298d5-81a5-475e-88ac-478694ddca02",
+            "entry": "scripts/index.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "capabilities": [
+        "script_eval"
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.3.0"
+        }
+    ]
+}
