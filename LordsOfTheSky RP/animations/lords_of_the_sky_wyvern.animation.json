@@ -493,7 +493,173 @@
 			"loop": true
 		},
 		"animation.lords_of_the_sky_wyvern.walk": {
-			"loop": true
+			"loop": true,
+			"bones": {
+				"root": {
+					"scale": [1, "1 + math.sin(query.anim_time * 60) * -0.01", 1]
+				},
+				"Torso": {
+					"rotation": [5, 0, 0],
+					"position": [0, 4, 0]
+				},
+				"Neck": {
+					"rotation": ["math.sin(query.anim_time * 100) * 2", 0, 0]
+				},
+				"NeckA": {
+					"rotation": ["40 + math.sin(query.anim_time * 100) * 5", 0, 0]
+				},
+				"Head": {
+					"rotation": [-30, 0, 0]
+				},
+				"SBGAL_Eyelid": {
+					"position": [0, 3, 0],
+					"scale": 1
+				},
+				"SBGAR_Eyelid": {
+					"position": [0, 3, 0]
+				},
+				"Jaw": {
+					"rotation": ["30 + math.sin(query.anim_time * 100) * 10", 0, 0]
+				},
+				"Tongue": {
+					"rotation": [-10, 0, 0]
+				},
+				"TongueB": {
+					"rotation": [5, 0, 0]
+				},
+				"TongueC": {
+					"rotation": [-20, 0, 0]
+				},
+				"WingLeft": {
+					"rotation": [0, 15, -32.5]
+				},
+				"WingLeftA": {
+					"rotation": [0, -45, 0]
+				},
+				"WingLeftLeg": {
+					"rotation": [7.5, 27.5, 35]
+				},
+				"WingLeftFingerLeft": {
+					"rotation": [0, 15, 0]
+				},
+				"WLFL_A": {
+					"rotation": [40, 0, 0]
+				},
+				"WingLeftFingerRight": {
+					"rotation": [0, -15, 0]
+				},
+				"WLFR_A": {
+					"rotation": [40, 0, 0]
+				},
+				"WingLeftB": {
+					"rotation": [32.5, 55, 60]
+				},
+				"WingLeftC": {
+					"rotation": [0, 32.5, 0]
+				},
+				"WingLeftD": {
+					"rotation": [0, -45, 0]
+				},
+				"WinLeftE": {
+					"rotation": [0, 32.5, 0]
+				},
+				"WingRight": {
+					"rotation": [0, -15, 32.5]
+				},
+				"WingRightA": {
+					"rotation": [0, 45, 0]
+				},
+				"WingRightLeg": {
+					"rotation": [7.5, -27.5, -35]
+				},
+				"WingRightFingerLeft": {
+					"rotation": [0, 15, 0]
+				},
+				"WRFL_A": {
+					"rotation": [40, 0, 0]
+				},
+				"WingRightFingerRight": {
+					"rotation": [0, -15, 0]
+				},
+				"WRFR": {
+					"rotation": [40, 0, 0]
+				},
+				"WingRightB": {
+					"rotation": [35, -55, -60]
+				},
+				"WingRightC": {
+					"rotation": [0, -32.5, 0]
+				},
+				"WingRightD": {
+					"rotation": [0, 45, 0]
+				},
+				"WingRightE": {
+					"rotation": [0, -32.5, 0]
+				},
+				"TorsoA": {
+					"rotation": [-7.52352, -0.41973, -0.44844]
+				},
+				"TorsoB": {
+					"rotation": [-17.5, 0, 0]
+				},
+				"LegLeft": {
+					"rotation": [-35, 0, 10]
+				},
+				"LLA": {
+					"rotation": [40, 5, -10]
+				},
+				"LLB": {
+					"rotation": [-42.5, 0, 0]
+				},
+				"LLC": {
+					"rotation": [60, 0, 0]
+				},
+				"LLF_Left": {
+					"rotation": [10, 20, 0]
+				},
+				"LLF_Right": {
+					"rotation": [10, -20, 0]
+				},
+				"LegRight": {
+					"rotation": [-35, 0, -10]
+				},
+				"LRA": {
+					"rotation": [40, -5, 10]
+				},
+				"LRB": {
+					"rotation": [-42.5, 0, 0]
+				},
+				"LRC": {
+					"rotation": [60, 0, 0]
+				},
+				"LRF_Left": {
+					"rotation": [10, 20, 0]
+				},
+				"LRF_Right": {
+					"rotation": [10, -20, 0]
+				},
+				"Tail": {
+					"rotation": [0, "math.sin(query.anim_time * 40) * 20", 0]
+				},
+				"TailA": {
+					"rotation": [12.5, 0, 0]
+				},
+				"TailB": {
+					"rotation": [2.5, 0, 0]
+				},
+				"TailC": {
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
+				},
+				"TailD": {
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
+				},
+				"TailE": {
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
+				},
+				"TailF": {
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
+				}
+			}
 		},
 		"animation.lords_of_the_sky_wyvern.attack": {
 			"loop": true
