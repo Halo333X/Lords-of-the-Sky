@@ -324,15 +324,14 @@
 			"loop": true,
 			"bones": {
 				"root": {
-					"scale": 1
+					"scale": [1, "1 + math.sin(query.anim_time * 60) * -0.01", 1]
 				},
 				"Torso": {
 					"rotation": [5, 0, 0],
-					"position": [0, 4, 0],
-					"scale": 1
+					"position": [0, 4, 0]
 				},
 				"NeckA": {
-					"rotation": [25, 0, 0]
+					"rotation": ["40 + math.sin(query.anim_time * 100) * 5", 0, 0]
 				},
 				"Head": {
 					"rotation": [-30, 0, 0]
@@ -345,7 +344,7 @@
 					"position": [0, 3, 0]
 				},
 				"Jaw": {
-					"rotation": [0, 0, 0]
+					"rotation": ["30 + math.sin(query.anim_time * 100) * 10", 0, 0]
 				},
 				"Tongue": {
 					"rotation": [-10, 0, 0]
@@ -465,31 +464,28 @@
 					"rotation": [10, -20, 0]
 				},
 				"Tail": {
-					"rotation": [-5, 0, 0]
+					"rotation": [0, "math.sin(query.anim_time * 40) * 20", 0]
 				},
 				"TailF": {
-					"rotation": [20, 0, 0]
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
 				},
 				"Neck": {
-					"rotation": [0, 0, 0]
-				},
-				"Body": {
-					"scale": 1
+					"rotation": ["math.sin(query.anim_time * 100) * 2", 0, 0]
 				},
 				"TailA": {
 					"rotation": [12.5, 0, 0]
 				},
 				"TailB": {
-					"rotation": [15, 0, 0]
+					"rotation": [2.5, 0, 0]
 				},
 				"TailC": {
-					"rotation": [15, 0, 0]
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
 				},
 				"TailD": {
-					"rotation": [15, 0, 0]
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
 				},
 				"TailE": {
-					"rotation": [17.5, 0, 0]
+					"rotation": [7.5, "math.sin(query.anim_time * 40) * 20", 0]
 				}
 			}
 		},
